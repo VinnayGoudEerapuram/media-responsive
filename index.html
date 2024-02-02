@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinnay Architects</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        .top {
+            display: flex;
+            justify-content: space-around;
+            background-color: whitesmoke;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top:0px;
+               
+        }
+        .top a:first-child {
+            flex-basis: 40%;
+            margin-left: -10px;
+        }
+        a {
+            text-decoration: none;
+            font-size: x-large;
+        }
+       .images {
+               display: flex;
+               position: relative;
+               gap: 10px;
+            }
+        .images h3{
+            position: relative;
+            top:40px;
+            background-color: black;
+            color: white;
+            width: fit-content;
+        }
+        .box {
+            display: flex;
+            position: relative;
+            gap: 10px;
+        }
+        .back {
+            position: absolute;
+            font-size: xx-large;
+            margin-left: 500px;
+            margin-top: 300px;
+            opacity: 1;
+            
+        }
+        @media screen and (max-width: 480px){
+            .images {
+                display: flex;
+                flex-direction: column;
+            }
+            .box{
+                display: flex;
+                flex-direction: column;
+            }
+            .top{
+                display: flex;
+                flex-direction: column;
+            }
+            .back{
+                position: absolute;
+                margin-left: 60px;
+                margin-top: 60px;
+                z-index:1;
+            }
+        }
+       
+    
+    </style>
+</head>
+<body>
+    
+    <div class="top">
+        <a href="#home"><b>Vinnay </b> Architects</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">about</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <br><br><BR><BR><BR><BR><BR><BR><BR>
+    <div >
+       
+        <p class="back"><b style="background-color: aliceblue;">Vinnay</b> Architect</p>
+        <img alt="Architect" src="https://www.w3schools.com/w3images/architect.jpg" width="100%" height="100%">
+    </div>
+    
+    <h1>Projects</h1>
+    <hr>
+   
+        
+            <div class="images">
+            <div>
+            <h3>Summer House</h3>
+            <img alt="Summer House" src="https://www.w3schools.com/w3images/house5.jpg" width="300px" height="200px">
+            </div>
+            <div>
+            <h3 > Brick House</h3>
+            <img alt="Brick House" src="https://www.w3schools.com/w3images/house2.jpg" width="300px" height="200px">
+            </div>
+            <div>
+            <h3 > Renovated</h3>
+            <img alt="Renovated" src="https://www.w3schools.com/w3images/house3.jpg" width="300px" height="200px">
+            </div>
+            <div>
+            <h3> Barn House</h3>
+            <img alt="Renovated" src="https://www.w3schools.com/w3images/house4.jpg" width="300px" height="200px">
+            </div>
+            </div>
+            <div class="images">
+                <div>
+                <h3>Summer House</h3>
+                <img alt="Summer House" src="https://www.w3schools.com/w3images/house5.jpg" width="300px" height="200px">
+                </div>
+                <div>
+                <h3 > Brick House</h3>
+                <img alt="Brick House" src="https://www.w3schools.com/w3images/house2.jpg" width="300px" height="200px">
+                </div>
+                <div>
+                <h3 > Renovated</h3>
+                <img alt="Renovated" src="https://www.w3schools.com/w3images/house3.jpg" width="300px" height="200px">
+                </div>
+                <div>
+                <h3> Barn House</h3>
+                <img alt="Renovated" src="https://www.w3schools.com/w3images/house4.jpg" width="300px" height="200px">
+                </div>
+                </div>
+            
+           
+   
+    
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <hr>
+
+
+    <div class="box">
+    <div>
+    <img alt="John Doe" src="https://www.w3schools.com/w3images/team2.jpg" width="300px" height="200px">
+    <h2>John Doe</h2>
+    <h4>CEO & Founder</h4>
+    <span>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</span>
+    <br>
+    <br>
+    <button style="width: 100%; height: 40px; background-color: whitesmoke;">Contact</button>
+    </div>
+    <div>
+    <img alt="Jane Doe" src="https://www.w3schools.com/w3images/team1.jpg" width="300px" height="200px">
+    <h2>Jane Doe</h2>
+    <h4>Architect</h4>
+    <span>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</span>
+    <br>
+    <br>
+    <button style="width: 100%; height: 40px; background-color: whitesmoke;">Contact</button>
+    </div>
+    <div>
+    <img alt="Mike Ross" src="https://www.w3schools.com/w3images/team3.jpg" width="300px" height="200px">
+    <h2>Mike Ross</h2>
+    <h4>Architect</h4>
+    <span>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</span>
+    <br>
+    <br>
+    <button style="width: 100%; height: 40px; background-color: whitesmoke;">Contact</button>
+    </div>
+    <div>
+    <img alt="John Doe" src="https://www.w3schools.com/w3images/team4.jpg" width="300px" height="200px">
+    <h2>Dan Star</h2>
+    <h4>Architect</h4>
+    <span>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</span>
+    <br>
+    <br>
+    <button style="width: 100%; height: 40px; background-color: whitesmoke;">Contact</button>
+    </div>
+    </div>
+
+<br>
+<strong>Contact</strong>
+<hr>
+<strong>Lets get in touch and talk about your next project.</strong>
+<br>
+<br>
+<div>
+<form>
+    <input class="" type="text" placeholder="Name" required name="Name" style="width: 100%; padding: 10px;" >
+    <br>
+    <br>
+    <input class="email" type="text" placeholder="Email" required name="Email" style="width: 100%; padding: 10px;">
+    <br>
+    <br>
+    <input class="subject" type="text" placeholder="Subject" required name="Subject" style="width: 100%; padding: 10px;">
+    <br>
+    <br>
+    <input class="comment" type="text" placeholder="Comment" required name="Comment" style="width: 100%; padding: 10px;">
+    <br>
+    <br>
+    <button style="width: 15%; height: 40px; background-color: black; color: white;"><b>SEND MESSAGE</b></button>
+</div>
+    <br>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.3019098188515!2d78.39954787420754!3d17.493095683412225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91625d9cd1ad%3A0x4455387ad24a675d!2s10000coders!5e0!3m2!1sen!2sin!4v1706695147644!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%"></iframe>
+</form>
+<br>
+<footer style="background-color: black; border: 100px; padding: 2%; width: 100%;">
+    <center><h1 style="color: white; font-size:medium;">Powered by <a href="#w3.css" style="font-size: small;">W3.CSS</a></h1></center>
+</footer>
+</div>
+</body>
+</html>
